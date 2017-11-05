@@ -8,7 +8,6 @@ module Tod
     end
 
     def env
-      Hash(@yml[:env]) || {}
     end
 
     def script
